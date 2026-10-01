@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from linear_regression import F, T, X
 
 # Create output folder if it doesn't exist
-output_dir = "graphe"
+output_dir = "plots"
 os.makedirs(output_dir, exist_ok=True)
 
 # Select first feature: MedInc (Median Income, standardized)
